@@ -21,4 +21,13 @@ RSpec.describe 'recursion exercises' do
       expect(factorial(num)).to eq(solution)
     end
   end
+
+  describe '#reverse' do
+    it 'reverses strings' do
+      string = 'cat'
+      solution = 'tac'
+
+      expect(reverse(string)).to eq(solution)
+    end
+  end
 end
